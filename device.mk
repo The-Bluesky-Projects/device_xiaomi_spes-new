@@ -378,10 +378,13 @@ PRODUCT_PACKAGES += \
     NotchBarKiller \
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay
-
-PRODUCT_ENFORCE_RRO_TARGETS := *
+PRODUCT_PACKAGES += \
+    SpesSettingsOverlay \
+    SpesSystemUIOverlay \
+    SpesSettingsProviderOverlay \
+    SpesFrameworksOverlay \
+    CarrierConfigOverlay \
+    SpesWifiOverlay
 
 # Perf
 PRODUCT_PACKAGES += \
@@ -509,7 +512,6 @@ PRODUCT_PACKAGES += \
     libwifi-hal-qcom \
     vendor.qti.hardware.wifi.hostapd@1.2.vendor \
     vendor.qti.hardware.wifi.supplicant@2.2.vendor \
-    WifiResCommon \
     wpa_supplicant \
     wpa_supplicant.conf
 
