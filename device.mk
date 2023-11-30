@@ -394,7 +394,8 @@ PRODUCT_PACKAGES += \
     SpesWifiOverlay \
     SettingsProvider2201117TG \
     SettingsProvider2201117TI \
-    SettingsProvider2201117TY
+    SettingsProvider2201117TY \
+    Aperture
 
 # Perf
 PRODUCT_PACKAGES += \
